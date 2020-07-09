@@ -823,6 +823,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 50px;
   transition: all .7s;
 }
+.collumnl{
+  font-size: 14px;
+  line-height: 20px;
+  width: 33%;
+  height:1050px;
+  display: inline-block;
+  padding: 0 1% 0 1%;
+  vertical-align: top;
+  margin-bottom: 50px;
+  transition: all .7s;
+}
 
 .collumn .headline{
   text-align: center;
@@ -834,6 +845,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 }
 .collumnr .headline{
+  text-align: center;
+  line-height: normal;
+  font-family: 'Playfair Display', serif;
+  display: block;
+  margin: 0 auto;
+
+
+}
+.collumnl .headline{
   text-align: center;
   line-height: normal;
   font-family: 'Playfair Display', serif;
@@ -857,14 +877,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   box-sizing: border-box;
   padding: 10px 0 10px 0;
 }
-.collumnr .headline.hl3{
+.collumnl .headline.hl3{
   font-weight: 400;
   font-style: italic;
   font-size: 36px;
   box-sizing: border-box;
   padding: 10px 0 10px 0;
 }
-.collumnr .headline.hl4{
+.collumnl .headline.hl3{
   font-weight: 400;
   font-style: italic;
   font-size: 36px;
@@ -896,36 +916,24 @@ font-size: 12px;
 }
 /*________________________________________________________________________________________________________________________________*/
 /*MEDIAQUERIES*/
-@media only all and (max-width: 1300px) {
-  .weatherforcastbox{
-      display: none;
-  }
 
-}
 @media only all and (max-width: 1200px) {
   .collumn{
-      width: 31%;
-      border:none;
-      height:auto;
+      width: 33%;
   }
   .collumnr{
-    width: 31%;
-    height:auto;
-}
-.collumnr .headline.hl3{
-  margin-top: 0;
+    width: 33%;
+    border-right: 1px solid #818080;
 }
 
 }
   @media only all and (max-width: 900px) {
   .collumn{
       width: 47%;
-      border:none;
-      height:auto;
   }
   .collumnr{
     width: 47%;
-    height:auto;
+    border-right: 1px solid #818080;
 }
 .collumnr .headline.hl3{
   margin-top: 0;
@@ -941,11 +949,19 @@ font-size: 12px;
   .collumnr{
     width: 100%;
     height:auto;
+    border:none
 }
-.collumnr .headline.hl3{
-  margin-top: 0;
+.collumnl{
+  width: 100%;
+  height: auto;
+  border:none
 }
-  header{
+.collumnl .headline.hl3{
+  text-align: center;
+  margin-top:0;
+  margin-left: 0;
+}
+  header1{
       max-width: 320px;
       font-size: 60px;
       line-height: 54px;
