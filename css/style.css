@@ -778,6 +778,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .copyright {
   text-align: center;
+
+}
+
+.copysize {
+  font-size: 20px;
 }
 
 #footer .credits {
@@ -798,10 +803,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .collumns{
 
+
 }
 
 .collumn{
-  font-size: 14px;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
   line-height: 20px;
   width: 33%;
   height:1050px;
@@ -813,7 +820,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-right: 1px solid #2f2f2f;
 }
 .collumnr{
-  font-size: 14px;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
   line-height: 20px;
   width: 33%;
   height:1050px;
@@ -824,7 +832,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all .7s;
 }
 .collumnl{
-  font-size: 14px;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
   line-height: 20px;
   width: 33%;
   height:1050px;
